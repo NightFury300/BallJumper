@@ -24,11 +24,7 @@
 Game::Game(MainWindow& wnd)
 	:
 	wnd(wnd),
-	gfx(wnd),
-	brd(gfx),
-	rng(rd()),
-	x(0, brd.getWidth()),
-	y(0, brd.getHeight())
+	gfx(wnd)
 {
 }
 
